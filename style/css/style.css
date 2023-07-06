@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .colonne1_2div{
     display: flex;
 }
@@ -29,3 +30,27 @@
     text-align: center;
     border-radius: 50px;
   }
+=======
+.log{
+    width: 10px;
+    height: 20px;
+}
+
+.img{
+    width: 30px;
+    height: 5px;
+}
+  
+  
+  
+  .card{
+    margin-top: 5px;
+  }
+
+  .class{
+    display: flex;
+  }
+.l{
+    width: 90px;
+}
+>>>>>>> ef3d89ece80ed212c8fe4ba8cf1a91fda6d248f5
