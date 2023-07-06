@@ -1,3 +1,36 @@
+<<<<<<< HEAD
+.colonne1_2div{
+    display: flex;
+}
+.ordi_icon{
+  width: 100px; 
+  height: 100px; 
+}
+.logistique{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: 25%;
+}
+.grh{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: 25%;
+}
+.personne_icon{
+    width: 100px; 
+    height: 100px; 
+}
+
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+=======
 .log{
     width: 10px;
     height: 20px;
@@ -20,3 +53,4 @@
 .l{
     width: 90px;
 }
+>>>>>>> ef3d89ece80ed212c8fe4ba8cf1a91fda6d248f5
