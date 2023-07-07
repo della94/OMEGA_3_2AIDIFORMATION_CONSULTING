@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .colonne1_2div{
     display: flex;
 }
@@ -30,7 +30,7 @@
     text-align: center;
     border-radius: 50px;
   }
-=======
+
 .log{
     width: 10px;
     height: 20px;
@@ -53,4 +53,91 @@
 .l{
     width: 90px;
 }
->>>>>>> ef3d89ece80ed212c8fe4ba8cf1a91fda6d248f5
+
+
+.image_1{
+    height: 350px;
+    width: 500px;
+}
+.image_2{
+    height: 350px;
+    width: 500px;
+    
+}
+.image_3{
+    height: 350px;
+    width: 500px;
+      
+}
+.image_4{
+    height: 350px;
+    width: 500px;
+      
+}
+.image_5{
+    height: 350px;
+    width: 500px;
+      
+}
+.image_6{
+    height: 350px;
+    width: 500px;
+      
+}
+
+.de1{
+    width: 350px;
+    margin-right: 35px;
+    margin-left: 105px;
+    height: 400px;
+    
+
+}
+.de2{
+    width: 350px; 
+    margin-left: 105px;
+    margin-top: 10px;
+    height: 400px;
+    margin-bottom: 20px
+    
+}
+.de3{
+    width: 350px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-right: 35px
+    
+}
+    
+.de4{
+    
+    width: 350px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 410px;
+    margin-bottom: 10px
+}
+.de5{
+    height: 230px;
+    width: 350px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.de6{
+    height: 230px;
+    width: 350px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.de7{
+    height: 230px;
+    width: 350px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
