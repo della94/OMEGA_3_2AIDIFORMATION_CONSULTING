@@ -28,19 +28,19 @@
                 <a class="nav-link text-light fs-3"  href="#Apropos">A PROPOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-3" href="#">NOS SERVICES</a>
+                <a class="nav-link text-light fs-3" href="#Nosservices">NOS SERVICES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light fs-3" href="#">GALERIE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fs-3" href="#">NOTRE EQUIPE</a>
+                <a class="nav-link text-light fs-3" href="#Notreequipe">NOS ALUMNIS</a>
               </li>
               <li class="nav-item">
               <a class= "nav-link scrollto text-light fs-3"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" href="#Contact">CONTACT</a></li>
                 
               <li class="nav-item">
-                <button class="btn btn-drink text-light fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal">S'INSCRIRE</button> 
+                <button class="btn btn- text-light fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal">S'INSCRIRE</button> 
                   
               </li>
               </ul>
@@ -54,20 +54,20 @@
 <div id="carouselExample" class="carousel slide container-fluid">
 <div class="carousel-inner">
 <div class="carousel-item active">
-  <img src="image/banière1.png" class="d-block w-100" alt="">
+  <img src="image/Slider.jpg" class="d-block w-100" alt="">
   
 </div>
 <div class="carousel-item">
-  <img src="image/la-jeunesse-africain.jpg" class="d-block w-100" alt="...">
+  <img src="image/slider_inscription_formation_htt.jpg" class="d-block w-100" alt="...">
 </div>
 <div class="carousel-item">
-  <img src="image/groupe.jpg" class="d-block w-100" alt="...">
-</div>
+  <img src="image/téléchargement.jpeg" class="d-block w-100" alt="...">
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Previous</span>
 </button>
+
 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Next</span>
@@ -173,26 +173,28 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
     </div>
     <div class="offcanvas-body">
 
-      <p></p><div class="contact">
-        <h2 style="text-align: center;">Contactez-nous</h2>
-        <form action="">
-            <div>
-                <input class="champ" type="text" placeholder="Nom">
-                <input class="champ" type="text" placeholder="Prénom">
-            </div>
-            <div style="margin-top: 15px;">
-                <input class="champ" type="text" placeholder="Ville">
-                <input class="champ" type="email" placeholder="Email">
-            </div>
-            <div>
-                <input class="sujet" type="text" placeholder="Sujet">
-            </div>
-            <div style="margin-top: 15px;">
-                <textarea style="width: 98%;" name="message" id="" cols="30" rows="10" placeholder="Votre Message ici"></textarea>
-            </div>
-            <button>Envoyer</button>
-        </form>
-    </div>
+      <p></p>
+      <form>
+        <div class="mb-3">
+        <label for="exampleInputname" class="form-label">Nom</label>
+          <input type="name" class="form-control" id="examplename1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</div>
+        </div>
+         <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputsubject1" class="form-label">Sujet</label>
+          <input type="subject" class="form-control" id="exampleInputsuject">
+        </div>
+ 
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
   </section>
 
 
@@ -251,60 +253,7 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
 </section>
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<section id="Nosservices" class="Nosservices">
       <div class="container p-4"
       style="background-color: orangered; text-align: center;">
       <h1 style="color: white;">NOS SERVICES</h1>
@@ -376,10 +325,10 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
               investissements)</p>
           </div>
         </div>
-      </div>
+      </div></div>
+    </section>
 
-    </div>
-     
+     <section id="Notreequipe" class="Notreequipe">
     <div class="container mt-4" style="background-color: orangered; width: 100%;">
       <h5 style="color: white;">LISTE DE NOS ALUMNIS</h5>
       <table style="width: 100%;">
@@ -425,6 +374,7 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
         </tbody>
       </table>
     </div>
+    </section>
 
     <div class="container d-flex mt-5 mb-2" style="background-color: rgb(249, 71, 6);" >
       <div class="col-6">
@@ -492,7 +442,7 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
           </div>
         </div>
       </div>
-
+</section>
 
 
    <!--debut de la galerie -->
@@ -528,6 +478,7 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
         </div>
 
       </div>
+<<<<<<< HEAD
     </div>
     </section>
 
@@ -541,6 +492,9 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
           
       
       
+=======
+    
+>>>>>>> 1a561c1c136aac7ca15213b80c265bbabd992668
     
 
 
@@ -555,48 +509,8 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
 
 
 
-       
-
-
-
-      
-     
-      
-      
-      
- 
-      
-      
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <!-- =====le debut de footer de 2AIDI ======= -->
+  
+    <!-- =====le debut de footer de 2AIDI ======= -->
 
   <footer id="footer" style="background-color: rgb(5, 5, 5)"; style="color: white " class="mb-3">
       <div class="footer-top">
@@ -658,13 +572,14 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
       </div>
 
       <center>
+
         <div class="copyright text-light">
           <h6> Copyright <strong><span></span></strong>.Tous les droits sont réservés</h6>
         </div>
       </center>
        
     </footer><!-- LA FIN DE Footer 2AIDI -->
-
+  
 
 
 
@@ -675,5 +590,40 @@ désormais en millions, tant l’offre est variée et les cours de qualité. Mai
     <script src="style/js/bootstrap.js"></script>
     <script src="style/js/bootstrap.min.js"></script>
     
-    </body>
+    </body><script>
+
+      var btn = document.getElementById('btn');
+  
+      btn.addEventListener('click', function(e)
+      {
+        e.preventDefault()
+  
+          var name = document.getElementById('name').value;
+          var first_name = document.getElementById
+          var email = document.getElementById('email').value;
+          var subject = document.getElementById('subject').value;
+          var message = document.getElementById('message').value;
+  
+          var body = 'name' +'</br> email : '+ email + '</br> subject ' +
+          
+          subject + '</br> message ' + message; 
+  
+        Email.send({
+  
+          Host : "smtp.elasticemail.com",
+          Username : "fsislinebemsse@gmail.com",
+          Password : "",
+          To : "info",
+          Form : email,
+          Subjet : subject,
+          Body : body
+  
+        }).then(
+          message => alert("Votre message est envoyé avec succès !!")
+        )
+      })
+      
+    </script>
+
+
 </html>

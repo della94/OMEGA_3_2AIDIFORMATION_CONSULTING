@@ -32,8 +32,8 @@
   }
 
 .log{
-    width: 10px;
-    height: 20px;
+    width: 15px;
+    height: 5px;
 }
 
 .img{
@@ -50,6 +50,7 @@
   .class{
     display: flex;
   }
+<<<<<<< HEAD
 .l{
     width: 90px;
 }
@@ -140,4 +141,6 @@
     margin-top: 10px;
     margin-bottom: 10px
 }
+=======
+>>>>>>> 1a561c1c136aac7ca15213b80c265bbabd992668
 
